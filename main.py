@@ -4,6 +4,8 @@ This is the main function for our OwlSat project, loosely based on / implementin
 tasko: https://github.com/Rice-OwlSat/Flight-Software/blob/master/OwlSat%20-%20Flight%20Software/lib/tasko/
 --> loop.py is very helpful. Defines schedule and schedule later functions. It also runs the tasks.
 
+Pico2 run code file: https://circuitpython.org/board/raspberry_pi_pico2/
+Drag in the above file along with all others desired
 '''
 
 import os, tasko

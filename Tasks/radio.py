@@ -1,12 +1,12 @@
 '''
 
-
 This is the radio task
 
 This task does several things in order:
 - listens for a radio signal
-- sends down the sensor and orbit data
-- delete all sent data when upload is confirmed
+- execute the command
+    - sends down the sensor and orbit data
+    - delete all sent data when upload is confirmed
 
 '''
 
