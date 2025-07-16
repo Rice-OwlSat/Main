@@ -31,3 +31,6 @@ For copyright and licensing reasons, do not commit any of these libraries into t
 - Test software integration with satellite modules (should use dummy circuits for now)
 - Develop transceiver API from scratch to communicate over CAN and AMSAT or whatever (listen to Luke, he understands this better than me)
 - Acquire splash file
+
+## Deployment
+I'll put together a directory tree once everyone's on the same page.
