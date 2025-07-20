@@ -1,0 +1,4 @@
+# Update this with each significant deployment
+VERSION_MAJOR = 0
+VERSION_MINOR = 0
+VERSION_MICRO = 1
