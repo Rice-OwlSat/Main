@@ -27,10 +27,24 @@ For copyright and licensing reasons, do not commit any of these libraries into t
 ## To-do
 
 - Get everyone comfortable with CircuitPython's API
-- Figure out why we're using an rfm9x library in the first place
+- Get main function working (code.py)
+- Get a proto-comm system working (via REPL initially)
+- Make fake data
 - Test software integration with satellite modules (should use dummy circuits for now)
+- TASKS:
+  - Battery
+  - Sensor
+  - Orbit
+    - Test with fake data
+  - Communications 
+    - Enable key exchange (for security reasons)
+    - Send data and delete confirmed received data 
+  - Watchdog
+    - Reset if something wrong
+  - Update
+    - Failsafe, switch back to proven
 - Develop transceiver API from scratch to communicate over CAN and AMSAT or whatever (listen to Luke, he understands this better than me)
-- Acquire splash file
+- Build CircuitPython for new boards
 
 ## Deployment
 I'll put together a directory tree once everyone's on the same page.
