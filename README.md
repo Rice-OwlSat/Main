@@ -6,6 +6,8 @@ The Recoding Effort!
 You'll have to build mpy-cross yourself on a Unix shell (for Windows users I recommend WSL2) from the [CircuitPython](https://github.com/adafruit/circuitpython/) version loaded onto the board. Load the compiled bytecode `.mpy` files onto the board, reset the kernel (^C, ^D inside the REPL console), and make sure the module is valid by running `import module-name-here` in the REPL terminal. If it says nothing, you're good to go.
 Any other version of mpy-cross generates a bad mpy file.
 
+If mpy-cross doesn't build try downloading from [here](https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/mpy-cross/).
+
 ## DEPENDENCIES
 You can compile these yourself or use the raw `.py` file
 
